@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="19529"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Application-->
+        <scene sceneID="JPo-4y-FX3">
+            <objects>
+                <application id="hnw-xV-0zn" sceneMemberID="viewController">
+                    <menu key="mainMenu" title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
+                        <items>
+                            <menuItem title="ABX HiFi Test" id="1Xt-HY-uBw">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="ABX HiFi Test" systemMenu="apple" id="uQy-DD-JDr">
+                                    <items>
+                                        <menuItem title="About ABX HiFi Test" id="5kV-Vb-QxS">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="orderFrontStandardAboutPanel:" target="Ady-hI-5gd" id="Exp-CZ-Vem"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="VOq-y0-SEH"/>
+                                        <menuItem title="Preferences…" keyEquivalent="," id="BOF-NM-1cW">
+                                            <connections>
+                                                <segue destination="mHj-8S-G3c" kind="show" id="APk-xj-yud"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="wFC-TO-SCJ"/>
+                                        <menuItem title="Services" id="NMo-om-nkz">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <menu key="submenu" title="Services" systemMenu="services" id="hz9-B4-Xy5"/>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="4je-JR-u6R"/>
+                                        <menuItem title="Hide ABX HiFi Test" keyEquivalent="h" id="Olw-nP-bQN">
+                                            <connections>
+                                                <action selector="hide:" target="Ady-hI-5gd" id="PnN-Uc-m68"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Hide Others" keyEquivalent="h" id="Vdr-fp-XzO">
+                                            <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                                            <connections>
+                                                <action selector="hideOtherApplications:" target="Ady-hI-5gd" id="VT4-aY-XCT"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Show All" id="Kd2-mp-pUS">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="unhideAllApplications:" target="Ady-hI-5gd" id="Dhg-Le-xox"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
+                                        <menuItem title="Quit ABX HiFi Test" keyEquivalent="q" id="4sb-4s-VLi">
+                                            <connections>
+                                                <action selector="terminate:" target="Ady-hI-5gd" id="Te7-pn-YzF"/>
+                                            </connections>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                            <menuItem title="File" id="yAM-qO-Voo">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="File" id="oC2-bR-GEX">
+                                    <items>
+                                        <menuItem title="Load music files " keyEquivalent="o" id="jJS-4S-Oob">
+                                            <connections>
+                                                <action selector="loadMusicFilesMenuItemSelected:" target="Ady-hI-5gd" id="1s1-cr-4Ev"/>
+                                            </connections>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                            <menuItem title="Play" id="URK-JF-gan">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="Play" autoenablesItems="NO" id="YYE-Cc-Pwf">
+                                    <items>
+                                        <menuItem title="Play X" keyEquivalent="x" id="5v0-lC-VzO">
+                                            <connections>
+                                                <action selector="playXMenuItemSelected:" target="Ady-hI-5gd" id="6dE-0M-GKV"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Play A" keyEquivalent="a" id="twj-aR-U1z">
+                                            <connections>
+                                                <action selector="playAMenuItemSelected:" target="Ady-hI-5gd" id="fiU-M2-WNf"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Play B" keyEquivalent="b" id="17Q-B4-24U">
+                                            <connections>
+                                                <action selector="playBMenuItemSelected:" target="Ady-hI-5gd" id="UCF-3P-Lzf"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="A = X" keyEquivalent="1" id="iWT-cr-K11">
+                                            <connections>
+                                                <action selector="AeqXMenuItemSelected:" target="Ady-hI-5gd" id="zX5-lG-J3v"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="B = X" keyEquivalent="2" id="AYR-Is-IbL">
+                                            <connections>
+                                                <action selector="BbeqXMenuItemSelected:" target="Ady-hI-5gd" id="zOs-te-ASd"/>
+                                            </connections>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                            <menuItem title="Help" id="wpr-3q-Mcd">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="Help" systemMenu="help" id="F2S-fz-NVQ">
+                                    <items>
+                                        <menuItem title="ABX HiFi Test Help" keyEquivalent="?" id="FKE-Sm-Kum">
+                                            <connections>
+                                                <action selector="showHelp:" target="Ady-hI-5gd" id="y7X-2Q-9no"/>
+                                            </connections>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                        </items>
+                    </menu>
+                    <connections>
+                        <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
+                    </connections>
+                </application>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="ABX_HiFi_Test" customModuleProvider="target">
+                    <connections>
+                        <outlet property="AeqXMenuItem" destination="iWT-cr-K11" id="IoN-uO-nTu"/>
+                        <outlet property="BeqXMenuItem" destination="AYR-Is-IbL" id="pS7-Br-n3j"/>
+                        <outlet property="loadMusicMenuItem" destination="jJS-4S-Oob" id="PiD-hR-Ree"/>
+                        <outlet property="playAMenuItem" destination="twj-aR-U1z" id="BAy-v7-FRE"/>
+                        <outlet property="playBMenuItem" destination="17Q-B4-24U" id="BYp-cu-rkd"/>
+                        <outlet property="playXMenuItem" destination="5v0-lC-VzO" id="Gz0-wi-t8C"/>
+                    </connections>
+                </customObject>
+                <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+                <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="75" y="0.0"/>
+        </scene>
+        <!--Window Controller-->
+        <scene sceneID="nmk-7P-rf5">
+            <objects>
+                <windowController id="mHj-8S-G3c" sceneMemberID="viewController">
+                    <window key="window" title="Preferences" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" frameAutosaveName="" animationBehavior="default" id="QeA-43-wYE">
+                        <windowStyleMask key="styleMask" titled="YES" closable="YES"/>
+                        <rect key="contentRect" x="2214" y="400" width="400" height="200"/>
+                        <rect key="screenRect" x="1920" y="37" width="1920" height="1175"/>
+                        <view key="contentView" id="Doe-Q7-Bb4">
+                            <rect key="frame" x="0.0" y="0.0" width="400" height="200"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                        </view>
+                        <connections>
+                            <outlet property="delegate" destination="mHj-8S-G3c" id="Keg-ne-eeV"/>
+                        </connections>
+                    </window>
+                    <connections>
+                        <segue destination="tGs-b1-2nF" kind="relationship" relationship="window.shadowedContentViewController" id="9mu-nh-uD4"/>
+                    </connections>
+                </windowController>
+                <customObject id="7pc-R1-tEO" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-468" y="229"/>
+        </scene>
+        <!--Prefs View Controller-->
+        <scene sceneID="s3e-8g-kLa">
+            <objects>
+                <viewController id="tGs-b1-2nF" customClass="PrefsViewController" customModule="ABX_HiFi_Test" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="aZh-Hv-2s6">
+                        <rect key="frame" x="0.0" y="0.0" width="400" height="200"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WkC-WB-3KA">
+                                <rect key="frame" x="25" y="164" width="89" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="ffmpeg path:" id="Ptd-c6-a6W">
+                                    <font key="font" usesAppearanceFont="YES"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gqg-Qi-0p3">
+                                <rect key="frame" x="132" y="164" width="216" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" title="/usr/local/bin/" placeholderString="Enter ffmpag path" drawsBackground="YES" id="mfE-nf-lOE">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="pathTextFieldChanged:" target="tGs-b1-2nF" id="vSV-kR-517"/>
+                                </connections>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j1q-pC-o3v">
+                                <rect key="frame" x="27" y="110" width="183" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="Select prefered compression:" id="Oys-Nx-a2V">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="86J-LV-Y0R">
+                                <rect key="frame" x="22" y="13" width="75" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="push" title="Cancel" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="m9n-oR-Jjf">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                    <string key="keyEquivalent" base64-UTF8="YES">
+Gw
+</string>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="cancelButtonClicked:" target="tGs-b1-2nF" id="PR1-dv-C92"/>
+                                </connections>
+                            </button>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1qX-w5-ulp">
+                                <rect key="frame" x="301" y="13" width="75" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="push" title="OK" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="n9u-AH-amK">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                    <string key="keyEquivalent" base64-UTF8="YES">
+DQ
+</string>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="okButtonClicked:" target="tGs-b1-2nF" id="Fw9-5i-8wt"/>
+                                </connections>
+                            </button>
+                            <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="021-fT-Gt9">
+                                <rect key="frame" x="224" y="106" width="128" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <popUpButtonCell key="cell" type="push" title="128k" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" tag="128" imageScaling="proportionallyDown" inset="2" selectedItem="fI6-an-OdP" id="qBM-9l-CRP">
+                                    <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="menu"/>
+                                    <menu key="menu" id="WPf-EM-sGD">
+                                        <items>
+                                            <menuItem title="128k" state="on" tag="128" id="fI6-an-OdP"/>
+                                            <menuItem title="192k" tag="192" id="L6K-jM-zXh"/>
+                                            <menuItem title="256k" tag="256" id="se3-RF-fbf"/>
+                                            <menuItem title="320k" tag="320" id="nU6-NE-Atw">
+                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                            </menuItem>
+                                        </items>
+                                    </menu>
+                                </popUpButtonCell>
+                                <connections>
+                                    <action selector="popupValueChanged:" target="tGs-b1-2nF" id="JS8-Nk-qoi"/>
+                                </connections>
+                            </popUpButton>
+                        </subviews>
+                    </view>
+                    <connections>
+                        <outlet property="cancelButton" destination="86J-LV-Y0R" id="bNg-s8-L2z"/>
+                        <outlet property="okButton" destination="1qX-w5-ulp" id="3Ui-io-ruI"/>
+                        <outlet property="pathTextField" destination="Gqg-Qi-0p3" id="x20-O4-SsL"/>
+                        <outlet property="qualityPopup" destination="021-fT-Gt9" id="dUC-u1-Zr2"/>
+                    </connections>
+                </viewController>
+                <customObject id="FSZ-pc-uCc" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-468" y="645"/>
+        </scene>
+        <!--Window Controller-->
+        <scene sceneID="R2V-B0-nI4">
+            <objects>
+                <windowController id="B8D-0N-5wS" sceneMemberID="viewController">
+                    <window key="window" title="ABX HiFi Test" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
+                        <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+                        <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+                        <rect key="contentRect" x="196" y="240" width="480" height="270"/>
+                        <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
+                        <value key="minSize" type="size" width="480" height="270"/>
+                        <connections>
+                            <outlet property="delegate" destination="B8D-0N-5wS" id="98r-iN-zZc"/>
+                        </connections>
+                    </window>
+                    <connections>
+                        <segue destination="XfG-lQ-9wD" kind="relationship" relationship="window.shadowedContentViewController" id="cq2-FE-JQM"/>
+                    </connections>
+                </windowController>
+                <customObject id="Oky-zY-oP4" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="75" y="250"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="hIz-AP-VOD">
+            <objects>
+                <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="ABX_HiFi_Test" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="m2S-Jp-Qdl">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <button verticalHuggingPriority="750" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t3P-nM-2sX">
+                                <rect key="frame" x="264" y="13" width="132" height="32"/>
+                                <buttonCell key="cell" type="push" title="Load music files" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="dMu-CY-49F">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="loadMusicButtonClicked:" target="XfG-lQ-9wD" id="yNX-ta-a0G"/>
+                                </connections>
+                            </button>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="lSJ-AR-7SS">
+                                <rect key="frame" x="58" y="223" width="72" height="32"/>
+                                <buttonCell key="cell" type="push" title="Play X" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="IhR-aP-FEE">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="playXButtonClicked:" target="XfG-lQ-9wD" id="9Ui-0g-uT7"/>
+                                </connections>
+                            </button>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="xVb-8Y-HWR">
+                                <rect key="frame" x="13" y="173" width="72" height="32"/>
+                                <buttonCell key="cell" type="push" title="Play A" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="RM5-WA-3Ht">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="playAButtonClicked:" target="XfG-lQ-9wD" id="uMa-Nf-VOk"/>
+                                </connections>
+                            </button>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="685-62-vUd">
+                                <rect key="frame" x="111" y="173" width="72" height="32"/>
+                                <buttonCell key="cell" type="push" title="Play B" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Ejt-iG-a6X">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="playBButtonClicked:" target="XfG-lQ-9wD" id="aDB-he-6bk"/>
+                                </connections>
+                            </button>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="4bh-tt-6Ue">
+                                <rect key="frame" x="13" y="13" width="68" height="32"/>
+                                <buttonCell key="cell" type="push" title="A = X" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="ISn-JF-hEI">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="AeqXButtonClicked:" target="XfG-lQ-9wD" id="GWP-Lz-uYT"/>
+                                </connections>
+                            </button>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="QuY-Fh-ou5">
+                                <rect key="frame" x="107" y="13" width="68" height="32"/>
+                                <buttonCell key="cell" type="push" title="B = X" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="3cU-dQ-S3o">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="BeqXButtonClicked:" target="XfG-lQ-9wD" id="JPF-b2-ltN"/>
+                                </connections>
+                            </button>
+                            <scrollView autohidesScrollers="YES" horizontalLineScroll="24" horizontalPageScroll="10" verticalLineScroll="24" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hyN-uG-kFF">
+                                <rect key="frame" x="196" y="60" width="264" height="190"/>
+                                <clipView key="contentView" id="Gr5-f0-sJm">
+                                    <rect key="frame" x="1" y="1" width="262" height="188"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" multipleSelection="NO" autosaveColumns="NO" rowHeight="24" rowSizeStyle="automatic" headerView="UZR-a7-inQ" viewBased="YES" id="eoQ-wH-pS7">
+                                            <rect key="frame" x="0.0" y="0.0" width="262" height="160"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <size key="intercellSpacing" width="17" height="0.0"/>
+                                            <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
+                                            <tableColumns>
+                                                <tableColumn width="116" minWidth="116" maxWidth="1000" id="XBB-iq-1Ot">
+                                                    <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" title="Music file">
+                                                        <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
+                                                        <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
+                                                    </tableHeaderCell>
+                                                    <textFieldCell key="dataCell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" title="Text Cell" id="8jW-JA-cvg">
+                                                        <font key="font" metaFont="system"/>
+                                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                        <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                    </textFieldCell>
+                                                    <tableColumnResizingMask key="resizingMask" resizeWithTable="YES"/>
+                                                    <prototypeCellViews>
+                                                        <tableCellView identifier="NameCellID" id="vTt-4f-Qto">
+                                                            <rect key="frame" x="8" y="0.0" width="114" height="24"/>
+                                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                            <subviews>
+                                                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MZA-K1-4Nj">
+                                                                    <rect key="frame" x="0.0" y="4" width="114" height="16"/>
+                                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                                                    <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Table View Cell" id="JYJ-xD-G6s">
+                                                                        <font key="font" usesAppearanceFont="YES"/>
+                                                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                                    </textFieldCell>
+                                                                </textField>
+                                                            </subviews>
+                                                            <connections>
+                                                                <outlet property="textField" destination="MZA-K1-4Nj" id="Qj0-dk-hBi"/>
+                                                            </connections>
+                                                        </tableCellView>
+                                                    </prototypeCellViews>
+                                                </tableColumn>
+                                                <tableColumn width="50" minWidth="50" maxWidth="50" id="Pn0-LO-nbW">
+                                                    <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" title="Result">
+                                                        <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
+                                                        <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
+                                                    </tableHeaderCell>
+                                                    <textFieldCell key="dataCell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" title="Text Cell" id="clp-ad-Onr">
+                                                        <font key="font" metaFont="system"/>
+                                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                        <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                    </textFieldCell>
+                                                    <prototypeCellViews>
+                                                        <tableCellView identifier="ResultCellID" id="db3-Iw-SUh">
+                                                            <rect key="frame" x="139" y="0.0" width="50" height="24"/>
+                                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                            <subviews>
+                                                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mn1-a5-5J0">
+                                                                    <rect key="frame" x="0.0" y="4" width="50" height="16"/>
+                                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                                                    <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Table View Cell" id="CT7-R1-eUF">
+                                                                        <font key="font" usesAppearanceFont="YES"/>
+                                                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                                    </textFieldCell>
+                                                                </textField>
+                                                            </subviews>
+                                                            <connections>
+                                                                <outlet property="textField" destination="Mn1-a5-5J0" id="3aw-nM-Iib"/>
+                                                            </connections>
+                                                        </tableCellView>
+                                                    </prototypeCellViews>
+                                                </tableColumn>
+                                                <tableColumn width="50" minWidth="50" maxWidth="50" id="i8S-jX-arA">
+                                                    <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="X Type">
+                                                        <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </tableHeaderCell>
+                                                    <textFieldCell key="dataCell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" alignment="left" title="Text Cell" id="o3F-wx-nHM">
+                                                        <font key="font" metaFont="system"/>
+                                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                        <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                    </textFieldCell>
+                                                    <prototypeCellViews>
+                                                        <tableCellView identifier="XTypeID" id="WhB-ld-0bW">
+                                                            <rect key="frame" x="206" y="0.0" width="47" height="17"/>
+                                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                            <subviews>
+                                                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8aI-a5-UJb">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="47" height="16"/>
+                                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                                                    <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Table View Cell" id="US8-qm-BAc">
+                                                                        <font key="font" usesAppearanceFont="YES"/>
+                                                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                                    </textFieldCell>
+                                                                </textField>
+                                                            </subviews>
+                                                            <connections>
+                                                                <outlet property="textField" destination="8aI-a5-UJb" id="afM-n6-IwX"/>
+                                                            </connections>
+                                                        </tableCellView>
+                                                    </prototypeCellViews>
+                                                </tableColumn>
+                                            </tableColumns>
+                                        </tableView>
+                                    </subviews>
+                                </clipView>
+                                <scroller key="horizontalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="YES" id="9dB-bp-dZW">
+                                    <rect key="frame" x="1" y="173" width="262" height="16"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </scroller>
+                                <scroller key="verticalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="AkD-f4-9pY">
+                                    <rect key="frame" x="224" y="17" width="15" height="102"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </scroller>
+                                <tableHeaderView key="headerView" wantsLayer="YES" id="UZR-a7-inQ">
+                                    <rect key="frame" x="0.0" y="0.0" width="262" height="28"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableHeaderView>
+                            </scrollView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="4bh-tt-6Ue" secondAttribute="bottom" constant="20" id="4lA-uf-Ywe"/>
+                            <constraint firstItem="hyN-uG-kFF" firstAttribute="leading" secondItem="685-62-vUd" secondAttribute="trailing" constant="20" id="HxT-Ta-L5t"/>
+                            <constraint firstAttribute="bottom" secondItem="QuY-Fh-ou5" secondAttribute="bottom" constant="20" id="JWy-pw-mTE"/>
+                            <constraint firstItem="lSJ-AR-7SS" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="65" id="LXJ-BF-Miy"/>
+                            <constraint firstAttribute="trailing" secondItem="hyN-uG-kFF" secondAttribute="trailing" constant="20" id="Lha-La-t4f"/>
+                            <constraint firstItem="hyN-uG-kFF" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="20" id="Lnj-RO-LR8"/>
+                            <constraint firstItem="685-62-vUd" firstAttribute="leading" secondItem="xVb-8Y-HWR" secondAttribute="trailing" constant="40" id="PAz-Fw-GIa"/>
+                            <constraint firstItem="QuY-Fh-ou5" firstAttribute="leading" secondItem="4bh-tt-6Ue" secondAttribute="trailing" constant="40" id="Tyj-Qm-6ck"/>
+                            <constraint firstItem="685-62-vUd" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="70" id="Umr-pz-Nas"/>
+                            <constraint firstItem="lSJ-AR-7SS" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="20" id="Z34-W9-4QC"/>
+                            <constraint firstItem="t3P-nM-2sX" firstAttribute="top" secondItem="hyN-uG-kFF" secondAttribute="bottom" constant="20" id="oDd-lc-ji2"/>
+                            <constraint firstItem="xVb-8Y-HWR" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" id="s7G-6a-CyT"/>
+                            <constraint firstItem="4bh-tt-6Ue" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" id="se5-Rr-hPB"/>
+                            <constraint firstAttribute="bottom" secondItem="t3P-nM-2sX" secondAttribute="bottom" constant="20" id="stp-rC-hx9"/>
+                            <constraint firstItem="xVb-8Y-HWR" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="70" id="vsL-Ma-EbD"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="AeqXButton" destination="4bh-tt-6Ue" id="Rei-WM-mHr"/>
+                        <outlet property="BeqXButton" destination="QuY-Fh-ou5" id="rV4-G9-TPf"/>
+                        <outlet property="loadMusicButton" destination="t3P-nM-2sX" id="sGk-bM-hJx"/>
+                        <outlet property="playAButton" destination="xVb-8Y-HWR" id="Ym9-Ts-2i1"/>
+                        <outlet property="playBButton" destination="685-62-vUd" id="ScN-AQ-hEJ"/>
+                        <outlet property="playXButton" destination="lSJ-AR-7SS" id="Xtc-fH-sY1"/>
+                        <outlet property="tableView" destination="eoQ-wH-pS7" id="UXb-BZ-X29"/>
+                    </connections>
+                </viewController>
+                <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="75" y="655"/>
+        </scene>
+    </scenes>
+</document>

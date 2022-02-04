@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4614A8F727ADC078001E3600 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4614A8F627ADC078001E3600 /* Preferences.swift */; };
+		46E3EAFD27A985020057C9B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E3EAFC27A985020057C9B1 /* AppDelegate.swift */; };
+		46E3EAFF27A985020057C9B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E3EAFE27A985020057C9B1 /* ViewController.swift */; };
+		46E3EB0127A985040057C9B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46E3EB0027A985040057C9B1 /* Assets.xcassets */; };
+		46E3EB0427A985040057C9B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46E3EB0227A985040057C9B1 /* Main.storyboard */; };
+		46E3EB0C27A993EF0057C9B1 /* PrefsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E3EB0B27A993EF0057C9B1 /* PrefsViewController.swift */; };
+		46E3EB1027A998AF0057C9B1 /* ABXHiFiTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E3EB0F27A998AF0057C9B1 /* ABXHiFiTest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4614A8F627ADC078001E3600 /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
+		469BFC4B27AC5ABD009AC5E0 /* ABX HiFi TestRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "ABX HiFi TestRelease.entitlements"; sourceTree = "<group>"; };
+		46E3EAF927A985020057C9B1 /* ABX HiFi Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ABX HiFi Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46E3EAFC27A985020057C9B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46E3EAFE27A985020057C9B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		46E3EB0027A985040057C9B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46E3EB0327A985040057C9B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46E3EB0527A985040057C9B1 /* ABX_HiFi_Test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ABX_HiFi_Test.entitlements; sourceTree = "<group>"; };
+		46E3EB0B27A993EF0057C9B1 /* PrefsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefsViewController.swift; sourceTree = "<group>"; };
+		46E3EB0F27A998AF0057C9B1 /* ABXHiFiTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABXHiFiTest.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46E3EAF627A985020057C9B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46E3EAF027A985020057C9B1 = {
+			isa = PBXGroup;
+			children = (
+				46E3EAFB27A985020057C9B1 /* ABX HiFi Test */,
+				46E3EAFA27A985020057C9B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46E3EAFA27A985020057C9B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46E3EAF927A985020057C9B1 /* ABX HiFi Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46E3EAFB27A985020057C9B1 /* ABX HiFi Test */ = {
+			isa = PBXGroup;
+			children = (
+				469BFC4B27AC5ABD009AC5E0 /* ABX HiFi TestRelease.entitlements */,
+				46E3EAFC27A985020057C9B1 /* AppDelegate.swift */,
+				46E3EB0D27A9980C0057C9B1 /* View Controllers */,
+				46E3EB0E27A998330057C9B1 /* Model */,
+				46E3EB0227A985040057C9B1 /* Main.storyboard */,
+				46E3EB0027A985040057C9B1 /* Assets.xcassets */,
+				46E3EB0527A985040057C9B1 /* ABX_HiFi_Test.entitlements */,
+			);
+			path = "ABX HiFi Test";
+			sourceTree = "<group>";
+		};
+		46E3EB0D27A9980C0057C9B1 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				46E3EAFE27A985020057C9B1 /* ViewController.swift */,
+				46E3EB0B27A993EF0057C9B1 /* PrefsViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		46E3EB0E27A998330057C9B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				46E3EB0F27A998AF0057C9B1 /* ABXHiFiTest.swift */,
+				4614A8F627ADC078001E3600 /* Preferences.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46E3EAF827A985020057C9B1 /* ABX HiFi Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46E3EB0827A985040057C9B1 /* Build configuration list for PBXNativeTarget "ABX HiFi Test" */;
+			buildPhases = (
+				46E3EAF527A985020057C9B1 /* Sources */,
+				46E3EAF627A985020057C9B1 /* Frameworks */,
+				46E3EAF727A985020057C9B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ABX HiFi Test";
+			productName = "ABX HiFi Test";
+			productReference = 46E3EAF927A985020057C9B1 /* ABX HiFi Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46E3EAF127A985020057C9B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					46E3EAF827A985020057C9B1 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 46E3EAF427A985020057C9B1 /* Build configuration list for PBXProject "ABX HiFi Test" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46E3EAF027A985020057C9B1;
+			productRefGroup = 46E3EAFA27A985020057C9B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46E3EAF827A985020057C9B1 /* ABX HiFi Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46E3EAF727A985020057C9B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46E3EB0127A985040057C9B1 /* Assets.xcassets in Resources */,
+				46E3EB0427A985040057C9B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46E3EAF527A985020057C9B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46E3EAFF27A985020057C9B1 /* ViewController.swift in Sources */,
+				46E3EB0C27A993EF0057C9B1 /* PrefsViewController.swift in Sources */,
+				4614A8F727ADC078001E3600 /* Preferences.swift in Sources */,
+				46E3EAFD27A985020057C9B1 /* AppDelegate.swift in Sources */,
+				46E3EB1027A998AF0057C9B1 /* ABXHiFiTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		46E3EB0227A985040057C9B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46E3EB0327A985040057C9B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46E3EB0627A985040057C9B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46E3EB0727A985040057C9B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		46E3EB0927A985040057C9B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ABX HiFi Test/ABX_HiFi_Test.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LarsF.ABX-HiFi-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		46E3EB0A27A985040057C9B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ABX HiFi Test/ABX HiFi TestRelease.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LarsF.ABX-HiFi-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46E3EAF427A985020057C9B1 /* Build configuration list for PBXProject "ABX HiFi Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46E3EB0627A985040057C9B1 /* Debug */,
+				46E3EB0727A985040057C9B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46E3EB0827A985040057C9B1 /* Build configuration list for PBXNativeTarget "ABX HiFi Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46E3EB0927A985040057C9B1 /* Debug */,
+				46E3EB0A27A985040057C9B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46E3EAF127A985020057C9B1 /* Project object */;
+}
