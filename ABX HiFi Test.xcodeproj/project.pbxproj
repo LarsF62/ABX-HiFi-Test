@@ -8,18 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		4614A8F727ADC078001E3600 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4614A8F627ADC078001E3600 /* Preferences.swift */; };
-		465D571B27AE657100BF3245 /* ABX HiFi Test.app in Resources */ = {isa = PBXBuildFile; fileRef = 465D571A27AE657100BF3245 /* ABX HiFi Test.app */; };
 		46E3EAFD27A985020057C9B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E3EAFC27A985020057C9B1 /* AppDelegate.swift */; };
 		46E3EAFF27A985020057C9B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E3EAFE27A985020057C9B1 /* ViewController.swift */; };
 		46E3EB0127A985040057C9B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46E3EB0027A985040057C9B1 /* Assets.xcassets */; };
 		46E3EB0427A985040057C9B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46E3EB0227A985040057C9B1 /* Main.storyboard */; };
 		46E3EB0C27A993EF0057C9B1 /* PrefsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E3EB0B27A993EF0057C9B1 /* PrefsViewController.swift */; };
 		46E3EB1027A998AF0057C9B1 /* ABXHiFiTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E3EB0F27A998AF0057C9B1 /* ABXHiFiTest.swift */; };
+		46F6CD5B27AFBC03006CD4F9 /* ABX HiFi Test.app in Resources */ = {isa = PBXBuildFile; fileRef = 46F6CD5A27AFBC03006CD4F9 /* ABX HiFi Test.app */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4614A8F627ADC078001E3600 /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
-		465D571A27AE657100BF3245 /* ABX HiFi Test.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = "ABX HiFi Test.app"; sourceTree = "<group>"; };
 		469BFC4B27AC5ABD009AC5E0 /* ABX HiFi TestRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "ABX HiFi TestRelease.entitlements"; sourceTree = "<group>"; };
 		46E3EAF927A985020057C9B1 /* ABX HiFi Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ABX HiFi Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46E3EAFC27A985020057C9B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -29,6 +28,7 @@
 		46E3EB0527A985040057C9B1 /* ABX_HiFi_Test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ABX_HiFi_Test.entitlements; sourceTree = "<group>"; };
 		46E3EB0B27A993EF0057C9B1 /* PrefsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefsViewController.swift; sourceTree = "<group>"; };
 		46E3EB0F27A998AF0057C9B1 /* ABXHiFiTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABXHiFiTest.swift; sourceTree = "<group>"; };
+		46F6CD5A27AFBC03006CD4F9 /* ABX HiFi Test.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; name = "ABX HiFi Test.app"; path = "ABX HiFi Test App/ABX HiFi Test.app"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,18 +42,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		465D571927AE657100BF3245 /* ABX HiFi Test 2022-02-05 08-54-30 */ = {
-			isa = PBXGroup;
-			children = (
-				465D571A27AE657100BF3245 /* ABX HiFi Test.app */,
-			);
-			path = "ABX HiFi Test 2022-02-05 08-54-30";
-			sourceTree = "<group>";
-		};
 		46E3EAF027A985020057C9B1 = {
 			isa = PBXGroup;
 			children = (
-				465D571927AE657100BF3245 /* ABX HiFi Test 2022-02-05 08-54-30 */,
+				46F6CD5A27AFBC03006CD4F9 /* ABX HiFi Test.app */,
 				46E3EAFB27A985020057C9B1 /* ABX HiFi Test */,
 				46E3EAFA27A985020057C9B1 /* Products */,
 			);
@@ -159,7 +151,7 @@
 			files = (
 				46E3EB0127A985040057C9B1 /* Assets.xcassets in Resources */,
 				46E3EB0427A985040057C9B1 /* Main.storyboard in Resources */,
-				465D571B27AE657100BF3245 /* ABX HiFi Test.app in Resources */,
+				46F6CD5B27AFBC03006CD4F9 /* ABX HiFi Test.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
