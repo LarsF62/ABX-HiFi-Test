@@ -4,37 +4,200 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Resources/ABX HiFi Test.app/Contents/Info.plist</key>
+		<data>
+		DqhJPv1tU+o9Nenr0pjCsj9zqZE=
+		</data>
+		<key>Resources/ABX HiFi Test.app/Contents/MacOS/ABX HiFi Test</key>
+		<data>
+		QP4yrJ3FwBfp/G+R2t2cgxGEriU=
+		</data>
+		<key>Resources/ABX HiFi Test.app/Contents/PkgInfo</key>
+		<data>
+		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>Resources/ABX HiFi Test.app/Contents/Resources/Assets.car</key>
+		<data>
+		ya0yoCk+RzN5Yk71KoT5UwmBTDA=
+		</data>
+		<key>Resources/ABX HiFi Test.app/Contents/Resources/Base.lproj/Main.storyboardc/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Sr8c+TeCpj6DB/9e7hpPa7mf6gI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/ABX HiFi Test.app/Contents/Resources/Base.lproj/Main.storyboardc/MainMenu.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Fu2BsHcysfbdIRKgVe/EcrDh5A0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/ABX HiFi Test.app/Contents/Resources/Base.lproj/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			kSeSeFEtnBeggLAKN3j9sTq/maM=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/ABX HiFi Test.app/Contents/Resources/Base.lproj/Main.storyboardc/NSWindowController-mHj-8S-G3c.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2xLgVnvkgjLlivBP2KGjc7S66mI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/ABX HiFi Test.app/Contents/Resources/Base.lproj/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cQfUUhyfc+sOmSn7VxI3yuvehGo=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/ABX HiFi Test.app/Contents/Resources/Base.lproj/Main.storyboardc/tGs-b1-2nF-view-aZh-Hv-2s6.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4H6kVVrEbujr8NbqQd0qPr/T+1Q=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/ABX HiFi Test.app/Contents/_CodeSignature/CodeResources</key>
+		<data>
+		QcfsygEJBVwyDNw4PwnBYP06RvI=
+		</data>
 		<key>Resources/Assets.car</key>
 		<data>
 		ya0yoCk+RzN5Yk71KoT5UwmBTDA=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
-		Sr8c+TeCpj6DB/9e7hpPa7mf6gI=
+		xrl4MherNTCLJS2Ir6SWLw29FHM=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/MainMenu.nib</key>
 		<data>
-		Fu2BsHcysfbdIRKgVe/EcrDh5A0=
+		+li7Te97DqG+Tr0910OeBOpYHcY=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib</key>
 		<data>
-		kSeSeFEtnBeggLAKN3j9sTq/maM=
+		pG6j2HRJNU2flP3xYDaMfqCl/Qs=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/NSWindowController-mHj-8S-G3c.nib</key>
 		<data>
-		2xLgVnvkgjLlivBP2KGjc7S66mI=
+		VyqUitEqzpROL5pExbgXAS1QDnk=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib</key>
 		<data>
-		cQfUUhyfc+sOmSn7VxI3yuvehGo=
+		uo5eC9FjQJuiB+uWfKOsxdDGwnQ=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/tGs-b1-2nF-view-aZh-Hv-2s6.nib</key>
 		<data>
-		4H6kVVrEbujr8NbqQd0qPr/T+1Q=
+		5Oqp516SCJBgB6e/1jl7IRgaztQ=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Resources/ABX HiFi Test.app/Contents/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jnHJW3HqJQhIn1R0PQy0jryRNZMAoZSdRar02GuqVBo=
+			</data>
+		</dict>
+		<key>Resources/ABX HiFi Test.app/Contents/MacOS/ABX HiFi Test</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BWT9Qj7u13VQAzNC2LUbL9b0U4H5Aqo+pHcVwolsWNY=
+			</data>
+		</dict>
+		<key>Resources/ABX HiFi Test.app/Contents/PkgInfo</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			glAhkclISwTWhTdPmHmgBmBpxJuKyuegSwHTjQfo7KA=
+			</data>
+		</dict>
+		<key>Resources/ABX HiFi Test.app/Contents/Resources/Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PM9ZYUjtuwT3ODIvYPQBx3jZeJH+VPPdBlUXEJMMhaQ=
+			</data>
+		</dict>
+		<key>Resources/ABX HiFi Test.app/Contents/Resources/Base.lproj/Main.storyboardc/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Qw9AZ35bHkCr/NrPrgD0PrEqBncJg1eNMTJqT2C/AXk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/ABX HiFi Test.app/Contents/Resources/Base.lproj/Main.storyboardc/MainMenu.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			uj22GqLfEexjcUY8Ue+/0EGuLdSzjISdEycgj/zCO0U=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/ABX HiFi Test.app/Contents/Resources/Base.lproj/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pdjsxpKVrO3smFxjFvk6N8SO9JiYTAH2fJC5jhxfXaw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/ABX HiFi Test.app/Contents/Resources/Base.lproj/Main.storyboardc/NSWindowController-mHj-8S-G3c.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			IWMJBU2TTlUF+WvjXEkf3JxLY3NLdBZZjawWu5gjIgo=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/ABX HiFi Test.app/Contents/Resources/Base.lproj/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			K8p6p0KhCSEcgZl6dSSJBQYQCF9T6OJ3KpcUifKEe/0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/ABX HiFi Test.app/Contents/Resources/Base.lproj/Main.storyboardc/tGs-b1-2nF-view-aZh-Hv-2s6.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			52K89wEtU0ctQi4ugetx3HFLoEqxQmOcL5J/ONkUUKA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/ABX HiFi Test.app/Contents/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dEj5lJ36odh7Rs2P/gOUK1RFlBD4hragTzoVW8pgAnM=
+			</data>
+		</dict>
 		<key>Resources/Assets.car</key>
 		<dict>
 			<key>hash2</key>
@@ -46,42 +209,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Qw9AZ35bHkCr/NrPrgD0PrEqBncJg1eNMTJqT2C/AXk=
+			nbgVP/yhR42HbT7bs/kVJqIT3E8vQ1c6be54s8Xo/XY=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/MainMenu.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uj22GqLfEexjcUY8Ue+/0EGuLdSzjISdEycgj/zCO0U=
+			LU42fJ0aO4Ura2m3gWDwPxN5MDhb7pglvsmYHkL42pI=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pdjsxpKVrO3smFxjFvk6N8SO9JiYTAH2fJC5jhxfXaw=
+			q2OUByC1WSVVU6xZlGU+TLtU0T3UGHxyDMmQr/ABhac=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/NSWindowController-mHj-8S-G3c.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IWMJBU2TTlUF+WvjXEkf3JxLY3NLdBZZjawWu5gjIgo=
+			QER7RdEh0SlZveWp5TPnXGi8fLEZ4U6w5SSfbZ+eDBs=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			K8p6p0KhCSEcgZl6dSSJBQYQCF9T6OJ3KpcUifKEe/0=
+			nLW50Q/DDEEalhBxV2m/VHvWGM10K8AB1YFu3YVEJT8=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/tGs-b1-2nF-view-aZh-Hv-2s6.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			52K89wEtU0ctQi4ugetx3HFLoEqxQmOcL5J/ONkUUKA=
+			71j54fTLuv9pgWyyQRxbfcVFxGXI7588qmQgdbfHx1w=
 			</data>
 		</dict>
 	</dict>

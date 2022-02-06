@@ -7,7 +7,8 @@
 
 import Cocoa
 
-class ViewController: NSViewController {
+class ViewController: NSViewController
+{
     let myfiles = ABXHiFiTest()
     var prefs = Preferences()
     var index_selected: Int!
@@ -37,6 +38,7 @@ class ViewController: NSViewController {
         tableView.dataSource = self
         index_selected = -1        
     }
+    
 
     override var representedObject: Any? {
         didSet {
@@ -285,8 +287,8 @@ extension ViewController: NSTableViewDelegate
     }
     
     
-    
-    override func viewWillAppear() {
+    override func viewWillAppear()
+    {
         super.viewWillAppear()
         tableView.reloadData()
     }

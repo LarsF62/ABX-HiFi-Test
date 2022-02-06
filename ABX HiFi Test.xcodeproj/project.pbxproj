@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4614A8F727ADC078001E3600 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4614A8F627ADC078001E3600 /* Preferences.swift */; };
+		46B30BFA27AFC69E00AAF64A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 46B30BF927AFC69E00AAF64A /* README.md */; };
 		46E3EAFD27A985020057C9B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E3EAFC27A985020057C9B1 /* AppDelegate.swift */; };
 		46E3EAFF27A985020057C9B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E3EAFE27A985020057C9B1 /* ViewController.swift */; };
 		46E3EB0127A985040057C9B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46E3EB0027A985040057C9B1 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		4614A8F627ADC078001E3600 /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
 		469BFC4B27AC5ABD009AC5E0 /* ABX HiFi TestRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "ABX HiFi TestRelease.entitlements"; sourceTree = "<group>"; };
+		46B30BF927AFC69E00AAF64A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		46E3EAF927A985020057C9B1 /* ABX HiFi Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ABX HiFi Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46E3EAFC27A985020057C9B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46E3EAFE27A985020057C9B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +47,7 @@
 		46E3EAF027A985020057C9B1 = {
 			isa = PBXGroup;
 			children = (
+				46B30BF927AFC69E00AAF64A /* README.md */,
 				46F6CD5A27AFBC03006CD4F9 /* ABX HiFi Test.app */,
 				46E3EAFB27A985020057C9B1 /* ABX HiFi Test */,
 				46E3EAFA27A985020057C9B1 /* Products */,
@@ -151,6 +154,7 @@
 			files = (
 				46E3EB0127A985040057C9B1 /* Assets.xcassets in Resources */,
 				46E3EB0427A985040057C9B1 /* Main.storyboard in Resources */,
+				46B30BFA27AFC69E00AAF64A /* README.md in Resources */,
 				46F6CD5B27AFBC03006CD4F9 /* ABX HiFi Test.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
